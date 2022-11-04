@@ -8,4 +8,5 @@ class User < ApplicationRecord
   
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :gender
+  has_many :questions
 end
